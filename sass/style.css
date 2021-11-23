@@ -3,18 +3,17 @@
 }
 
 .header__top {
-  height: 100px;
-  background-color: #929292;
+  background-color: #EAE3DA;
 }
 .header__top .navbar-brand img {
-  width: 90px;
+  width: 100px;
 }
 .header__top .nav-item {
   padding: 0 30px 0 30px;
 }
 .header__top .nav-link {
   text-decoration: none;
-  color: white;
+  color: #422A19;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 14px;
   font-weight: 500;
@@ -30,8 +29,17 @@
 .section-1 .product__img {
   width: 100%;
 }
+.section-1 .product__title {
+  color: #422A19;
+}
 .section-1 .product__subtitle {
   justify-content: space-between;
+}
+.section-1 .product__img {
+  width: 100%;
+}
+.section-1 .product__subtitle--style-1 {
+  text-decoration: line-through;
 }
 
 /*# sourceMappingURL=style.css.map */

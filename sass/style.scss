@@ -1,16 +1,18 @@
 *{box-sizing: border-box;}
+$bg-color:#EAE3DA;
+$textcolor:#422A19;
 .header__top{
-    height: 100px;
-    background-color: rgb(146, 146, 146);
+    
+    background-color: #EAE3DA;
     .navbar-brand img{
-        width: 90px;
+        width: 100px;
     }
     .nav-item{
         padding: 0 30px 0 30px;
     }
     .nav-link{
         text-decoration: none;
-        color: white;
+        color: #422A19;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 14px;
         font-weight: 500;
@@ -27,7 +29,16 @@
     .product__img{
         width: 100%;
     }
+    .product__title{
+        color:$textcolor ;
+    }
     .product__subtitle{
         justify-content: space-between;
+    }
+    .product__img{
+        width: 100%;
+    }
+    .product__subtitle--style-1{
+        text-decoration: line-through;
     }
 }
