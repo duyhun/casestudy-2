@@ -1,6 +1,7 @@
 *{box-sizing: border-box;}
 $bg-color:#EAE3DA;
 $textcolor:#422A19;
+@import url(https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500&display=swap);
 .header__top{
     
     background-color: #EAE3DA;
@@ -25,6 +26,9 @@ $textcolor:#422A19;
 }
 
 .section-1{
+    .section-1__title{
+        font-family: 'Cormorant Garamond', serif;;
+    }
     padding-top: 30px;
     .product__img{
         width: 100%;

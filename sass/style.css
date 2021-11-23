@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500&display=swap);
 * {
   box-sizing: border-box;
 }
@@ -25,6 +26,9 @@
 
 .section-1 {
   padding-top: 30px;
+}
+.section-1 .section-1__title {
+  font-family: "Cormorant Garamond", serif;
 }
 .section-1 .product__img {
   width: 100%;
