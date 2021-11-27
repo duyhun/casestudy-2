@@ -16,7 +16,7 @@
   text-decoration: none;
   color: #422A19;
   font-family: "Cormorant Garamond", serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
 }
 .header__top .dropdown-menu {
@@ -46,6 +46,8 @@
 
 .section-1 {
   padding-top: 30px;
+  position: relative;
+  width: 100%;
 }
 .section-1 .section-1__title {
   font-family: "Cormorant Garamond", serif;
@@ -60,10 +62,22 @@
 }
 .section-1 .product__subtitle {
   justify-content: space-between;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 20px;
 }
 .section-1 .product__img {
   width: 100%;
-  height: 500px;
+  height: 520px;
+}
+.section-1 .product__img-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.4s;
+  opacity: 0;
+}
+.section-1 .product__img-2:hover {
+  opacity: 1;
 }
 
 .section-2 {
