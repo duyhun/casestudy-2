@@ -1,6 +1,7 @@
 *{box-sizing: border-box;}
 $bg-color:#EAE3DA;
 $textcolor:#422A19;
+$font-family:'Cormorant Garamond', serif;
 @import url(https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500&display=swap);
 .header__top{
     
@@ -14,10 +15,33 @@ $textcolor:#422A19;
     .nav-link{
         text-decoration: none;
         color: #422A19;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: 'Cormorant Garamond', serif;
         font-size: 14px;
-        font-weight: 500;
+        font-weight: bold;
     }
+    .dropdown-menu {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-menu a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown-menu a:hover {
+        background-color: #ddd;
+      }
+      
+      .dropdown:hover .dropdown-menu {
+        display: block;
+      }
 }
 .header__banner{
     .header__banner--img img{
@@ -26,23 +50,92 @@ $textcolor:#422A19;
 }
 
 .section-1{
-    .section-1__title{
-        font-family: 'Cormorant Garamond', serif;;
-    }
     padding-top: 30px;
-    .product__img{
-        width: 100%;
+    .section-1__title{
+        font-family: 'Cormorant Garamond', serif;
     }
     .product__title{
         color:$textcolor ;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 13px;
+        justify-content: space-between;
     }
     .product__subtitle{
         justify-content: space-between;
     }
     .product__img{
         width: 100%;
+        height: 500px;
     }
-    .product__subtitle--style-1{
-        text-decoration: line-through;
+}
+
+.section-2{
+    width: 100%;
+    height: 400px;
+    background-color: $bg-color;
+    color: $textcolor;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 900;
+    .section-2__subtitle{
+        width: 900px;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .section-2__button{
+        font-weight: 500;
+    }
+    .section-2__button:hover{
+        color: white;
+    }
+}
+
+.section-3{
+    width: 100%;
+    height: 300px;
+    .section-3__icon{
+        font-size: 50px;
+        color: $textcolor;
+        margin-top: 30px;
+    }
+    .section-3__title{
+        font-family: $font-family;
+        color: $textcolor;
+        font-size: 21px;
+        font-weight: bold;
+    }
+    .section-3__subtitle{
+        font-family: $font-family;
+        color: $textcolor;
+        font-size: 14px;
+    }
+}
+
+.section-4{
+    height: 100px;
+    margin-bottom: 60px;
+    .section-4__logo img{
+        width: 200px;
+        margin-top: 30px;
+    }
+    .section-4__form{
+        margin-top: 40px;
+    }
+}
+
+footer{
+    background-color: $bg-color;
+    height: 200px;
+    padding-top: 50px;
+    text-decoration: none;
+    .footer__title a{
+        color: $textcolor;
+        text-decoration: none;
+    }
+    .footer__icon a{
+        color: $textcolor;
+        text-decoration: none;
+        font-size: 20px;
     }
 }
