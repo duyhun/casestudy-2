@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="sass-3/style_3.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__top">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid p-0">
+                    <a class="navbar-brand" href="#">
+                        <img src="IMG/GREETINGSBEAN_Logo-01.png" alt="">
+                    </a>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav m-auto mb-2 mb-lg-0 justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link  " href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    PRODUCT
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#"> Dress <a>
+                                    <li>
+                                    <li><a class="dropdown-item" href="#"> Jacket <a>
+                                    <li>
+                                    <li><a class="dropdown-item" href="#"> Somethingelse here </a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link " href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    SALE
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">10%</a></li>
+                                    <li><a class="dropdown-item" href="#">20%</a></li>
+                                    <li><a class="dropdown-item" href="#">30%</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#"> CONTACT </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#"> ABOUT US </a>
+                            </li>
+                        </ul>
+                        <form class="d-flex justify-content-end">
+                            <button class="btn nav-link" type="submit"> <i class="fa fa-search"
+                                    aria-hidden="true"></i></button>
+                            <button class="btn nav-link" type="submit"> <i class="far fa-user"></i></button>
+                            <button class="btn nav-link" type="submit"> <i
+                                    class="fal fa-bags-shopping"></i></i></button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="text-center">
+            <div class="breadcumb">
+                <a href="index.html"> Home </a>
+                <span><i class="fal fa-chevron-double-right"></i></span>
+                <a href="products.html"> All Products </a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 filter-col">
+                    <div class="box menu">
+                        <div class="box">
+                            <h3 class="filter-header">
+                                Categories
+                            </h3>
+                            <ul class="filter-list">
+                                <li><a href="#"> Dress </a></li>
+                                <li><a href="#"> Set </a></li>
+                                <li><a href="#"> Jacket </a></li>
+                            </ul>
+                        </div>
+                        <div class="box">
+                            <h3 class="filter-header">
+                                Price
+                            </h3>
+                            <div class="price-range">
+                                <input type="text">
+                                <span>-</span>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="box">
+                            <h3 class="filter-header">By Color</h3>
+                            <ul class="filter-list">
+                                <li>
+                                    <div class="group-checkbox">
+                                        <input type="checkbox">
+                                        <label for=""> Pink
+                                            <i class="bx bx-check"></i>
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="filter-list">
+                                <li>
+                                    <div class="group-checkbox">
+                                        <input type="checkbox">
+                                        <label for=""> Black
+                                            <i class="bx bx-check"></i>
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="filter-list">
+                                <li>
+                                    <div class="group-checkbox">
+                                        <input type="checkbox">
+                                        <label for=""> White
+                                            <i class="bx bx-check"></i>
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="box">
+                            <form action="">
+                                <div class="d-block d-flex">
+                                    <input type="text" value="search product" style="width :150px; margin-right: 10px;">
+                                    <button class="btn btn-outline "> <i class="fa fa-search"
+                                            aria-hidden="true"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 text-center product">
+                    <div class="product__layer">
+                        <div class="product__layer--1">
+                            <a href=""><img class="product__img product__img-1 pb-2 " src="IMG/6.JPG" alt=""></a>
+                            <a href=""><img class="product__img product__img-2 pb-2  ml-3" src="IMG/6.1.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="d-flex d-block ">
+                        <h6 class="product__title text-left pt-2 ">Glenda Tweed</h6>
+                        <div class="product__icon ml-auto">
+                            <button class="btn btn-outline p-0"><i class="far fa-heart"></i></button>
+                            <button class="btn btn-outline p-0"><i class="fal fa-bags-shopping"></i></button>
+                        </div>
+                    </div>
+                    <p class="product__subtitle  text-left ">900.000đ</p>
+                </div>
+                <div class="col-md-4 col-12 text-center product">
+                    <div class="product__layer">
+                        <div class="product__layer--1">
+                            <a href=""><img class="product__img product__img-1 pb-2 " src="IMG/6.JPG" alt=""></a>
+                            <a href=""><img class="product__img product__img-2 pb-2  ml-3" src="IMG/6.1.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="d-flex d-block ">
+                        <h6 class="product__title text-left pt-2 ">Glenda Tweed</h6>
+                        <div class="product__icon ml-auto">
+                            <button class="btn btn-outline p-0"><i class="far fa-heart"></i></button>
+                            <button class="btn btn-outline p-0"><i class="fal fa-bags-shopping"></i></button>
+                        </div>
+                    </div>
+                    <p class="product__subtitle  text-left ">900.000đ</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-12 text-left">
+                    <div class="footer__title px-5 py-2"><a href="#"> PRIVACY POLICY</a></div>
+                    <div class="footer__title px-5 py-2"><a href="#"> TERMS & CONDITIONS</a></div>
+                    <div class="footer__title px-5 py-2"><a href="#"> ABOUT</a></div>
+                </div>
+                <div class="col-md-4 col-12 text-left">
+                    <div class="footer__title px-5 py-2"><a href="#"> SHIPPING INFO</a></div>
+                    <div class="footer__title px-5 py-2"><a href="#"> RETURNS / EXCHANGES</a></div>
+                    <div class="footer__title px-5 py-2"><a href="#"> CONTACT</a></div>
+                </div>
+                <div class="col-md-4 col-12 text-left">
+                    <div class="footer__title px-5 py-2"><a href="#"> ON SOCIAL NETWORKS</a></div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="footer__icon px-5 "><a
+                                    href="https://www.instagram.com/greetings.bean_official/"> <i
+                                        class="fab fa-instagram"></i> </a> </div>
+                            <div class="footer__icon px-2 "><a
+                                    href="https://www.facebook.com/greetingsbean_offical-103586794839228"> <i
+                                        class="fab fa-facebook-square"></i> </a></div>
+                            <div class="footer__icon px-5 "><a href="https://shopee.vn/greetingsbean?smtt=0.0.9"> <i
+                                        class="fab fa-google-plus-g"></i> </a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

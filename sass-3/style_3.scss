@@ -49,8 +49,48 @@ $font-family:'Cormorant Garamond', serif;
     }
 }
 
-.section-1{
-    padding-top: 30px;
+.main{
+    .breadcumb{
+        font-weight: 600;
+        padding-left: 20px;
+        padding-top: 30px;
+    }
+    .breadcumb a {
+        text-transform: capitalize;
+        color: black;
+        text-decoration: none;
+    }
+    .breadcumb a:hover{
+        color: $textcolor;
+    }
+    .breadcumb span {
+        margin: 0 15px;
+    }
+    .menu li{
+        list-style-type: none;
+    }
+    .menu{
+        font-family: $font-family;
+        padding-top: 50px;
+    }
+    .box{
+        padding: 30px;
+    }
+    .filter-header h3{
+        font-size: 18px;
+    }
+    .filter-list a{
+        font-size: 18px;
+        display: inline-block;
+        padding: 10px;
+        text-decoration: none;
+        color: $textcolor
+        
+    }
+}
+
+.product{
+    padding-top: 50px;
     position: relative;
     width: 100%;
     .section-1__title{
@@ -83,62 +123,12 @@ $font-family:'Cormorant Garamond', serif;
     .product__img-2:hover{
        opacity: 1;
        width: 350px;
-       top:0;
+       top: 50px;
        left: 0;
     }
 }
 
-.section-2{
-    width: 100%;
-    height: 400px;
-    background-color: $bg-color;
-    color: $textcolor;
-    font-family: 'Cormorant Garamond', serif;
-    font-weight: 900;
-    .section-2__subtitle{
-        width: 900px;
-        font-weight: 500;
-        font-size: 20px;
-    }
-    .section-2__button{
-        font-weight: 500;
-    }
-    .section-2__button:hover{
-        color: white;
-    }
-}
 
-.section-3{
-    width: 100%;
-    .section-3__icon{
-        font-size: 50px;
-        color: $textcolor;
-        margin-top: 30px;
-    }
-    .section-3__title{
-        font-family: $font-family;
-        color: $textcolor;
-        font-size: 21px;
-        font-weight: bold;
-    }
-    .section-3__subtitle{
-        font-family: $font-family;
-        color: $textcolor;
-        font-size: 14px;
-    }
-}
-
-.section-4{
-    
-    margin-bottom: 60px;
-    .section-4__logo img{
-        width: 200px;
-        margin-top: 30px;
-    }
-    .section-4__form{
-        margin-top: 40px;
-    }
-}
 
 .footer{
     background-color: $bg-color;
