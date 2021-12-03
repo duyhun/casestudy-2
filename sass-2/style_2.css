@@ -40,6 +40,43 @@
   display: block;
 }
 
+.main .breadcumb {
+  font-weight: 600;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+.main .breadcumb a {
+  text-transform: capitalize;
+  color: black;
+  text-decoration: none;
+}
+.main .breadcumb a:hover {
+  color: #422A19;
+}
+.main .breadcumb span {
+  margin: 0 15px;
+}
+.main .menu li {
+  list-style-type: none;
+}
+.main .menu {
+  font-family: "Cormorant Garamond", serif;
+  padding-top: 50px;
+}
+.main .box {
+  padding: 30px;
+}
+.main .filter-header h3 {
+  font-size: 18px;
+}
+.main .filter-list a {
+  font-size: 18px;
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: #422A19;
+}
+
 .card-wrapper img {
   width: 148px;
   padding: 5px;
