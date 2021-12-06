@@ -84,14 +84,14 @@
 
 .section-2 {
   width: 100%;
-  height: 400px;
+  
   background-color: #EAE3DA;
   color: #422A19;
   font-family: "Cormorant Garamond", serif;
   font-weight: 900;
 }
 .section-2 .section-2__subtitle {
-  width: 900px;
+  
   font-weight: 500;
   font-size: 20px;
 }
